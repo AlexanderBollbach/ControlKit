@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ControlKitFramework/../TestControlKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ControlKitFramework/ControlKit.xcodeproj">
    </FileRef>
 </Workspace>

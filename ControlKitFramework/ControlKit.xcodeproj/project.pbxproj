@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2900A6491FC469530066101A /* PBXContainerItemProxy */ = {
+		2900A6541FC46C570066101A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2900A6451FC469520066101A /* TestControlKit.xcodeproj */;
 			proxyType = 2;
@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2900A6451FC469520066101A /* TestControlKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestControlKit.xcodeproj; path = ../TestControlKit/TestControlKit.xcodeproj; sourceTree = "<group>"; };
+		2900A6451FC469520066101A /* TestControlKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestControlKit.xcodeproj; path = ../TestControlKit.xcodeproj; sourceTree = "<group>"; };
 		297B36951FC3EDF0003A0198 /* ControlKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ControlKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F709D41FC4650C00755044 /* ControlKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlKit.h; sourceTree = "<group>"; };
 		29F709D51FC4650C00755044 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,10 +53,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2900A6461FC469520066101A /* Products */ = {
+		2900A6511FC46C570066101A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2900A64A1FC469530066101A /* TestControlKit.app */,
+				2900A6551FC46C570066101A /* TestControlKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 2900A6461FC469520066101A /* Products */;
+					ProductGroup = 2900A6511FC46C570066101A /* Products */;
 					ProjectRef = 2900A6451FC469520066101A /* TestControlKit.xcodeproj */;
 				},
 			);
@@ -207,11 +207,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		2900A64A1FC469530066101A /* TestControlKit.app */ = {
+		2900A6551FC46C570066101A /* TestControlKit.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = TestControlKit.app;
-			remoteRef = 2900A6491FC469530066101A /* PBXContainerItemProxy */;
+			remoteRef = 2900A6541FC46C570066101A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

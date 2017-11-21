@@ -76,7 +76,8 @@
 				29F70A011FC4658F00755044 /* LaunchScreen.storyboard */,
 				29F70A041FC4658F00755044 /* Info.plist */,
 			);
-			path = source;
+			name = source;
+			path = TestControlKit/source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2A7A6XU69G;
-				INFOPLIST_FILE = "$(SRCROOT)/source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TestControlKit/source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.TestControlKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2A7A6XU69G;
-				INFOPLIST_FILE = "$(SRCROOT)/source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TestControlKit/source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.TestControlKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -12,7 +12,7 @@ import ControlKit
 
 class StateController {
     
-    var discreteProp: String = ""
+    var discreteProp: Bool = false
     var continuousProp = 0.0
 }
 
@@ -25,10 +25,13 @@ class ViewController: UIViewController {
     
         let sc = StateController()
     
-        let c1 = ControlKit.DiscreteParam { sc.discreteProp = $0 as! String }
+        let c1 = ControlKit.DiscreteParam { sc.discreteProp = $0 as! Bool }
         let c2 = ControlKit.ContinuousParam { sc.continuousProp = $0 as! Double }
         
-        ControlKit.ControlPanel(with: [c1, c2]).pinTo(superView: self.view)
+        let c3 = ControlKit.DiscreteParam { sc.discreteProp = $0 as! Bool }
+        let c4 = ControlKit.ContinuousParam { sc.continuousProp = $0 as! Double }
+        
+        ControlKit.ControlPanel(with: [c1, c2, c3, c4]).pinTo(superView: self.view)
     }
 
 
