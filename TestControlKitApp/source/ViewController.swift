@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     
     
-    
+        
         let sc = StateController()
     
         let c1 = ControlKit.DiscreteParam { sc.discreteProp = $0 as! Bool }
